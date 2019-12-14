@@ -1,4 +1,4 @@
-/* Day 1, 1st Problem Solving Target
+/* Day 1, Problem 2 #50DaysAnd100ProblemSolvingChallenge
 
 Given a  2D Array, :
 
