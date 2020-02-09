@@ -1,13 +1,8 @@
-/*Day 2, Problem 2 #50DaysAnd100ProblemSolvingChallenge
+/* Problem 2 #50DaysAnd100ProblemSolvingChallenge
 
-ProblemLink: https://www.hackerrank.com/challenges/java-2d-array/problem
+ProblemLink: https://www.hackerrank.com/challenges/2d-array/problem?h_r=profile
 
-You are given a 6 * 6 2D array. An hourglass in an array is a portion shaped like this:
-
-a b c
-  d
-e f g
-For example, if we create an hourglass using the number 1 within an array full of zeros, it may look like this:
+Given a  2D Array, :
 
 1 1 1 0 0 0
 0 1 0 0 0 0
@@ -15,22 +10,50 @@ For example, if we create an hourglass using the number 1 within an array full o
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-Actually, there are many hourglasses in the array above. The three leftmost hourglasses are the following:
+We define an hourglass in  to be a subset of values with indices falling in this pattern in 's graphical representation:
 
-1 1 1     1 1 0     1 0 0
-  1         0         0
-1 1 1     1 1 0     1 0 0
-The sum of an hourglass is the sum of all the numbers within it. The sum for the hourglasses above are 7, 4, and 2, respectively.
+a b c
+  d
+e f g
+There are  hourglasses in , and an hourglass sum is the sum of an hourglass' values. Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum.
 
-In this problem you have to print the largest sum among all the hourglasses in the array.
+For example, given the 2D array:
 
+-9 -9 -9  1 1 1 
+ 0 -9  0  4 3 2
+-9 -9 -9  1 2 3
+ 0  0  8  6 6 0
+ 0  0  0 -2 0 0
+ 0  0  1  2 4 0
+We calculate the following  hourglass values:
+
+-63, -34, -9, 12, 
+-10, 0, 28, 23, 
+-27, -11, -2, 10, 
+9, 17, 25, 18
+Our highest hourglass value is  from the hourglass:
+
+0 4 3
+  1
+8 6 6
+Note: If you have already solved the Java domain's Java 2D Array challenge, you may wish to skip this challenge.
+
+Function Description
+
+Complete the function hourglassSum in the editor below. It should return an integer, the maximum hourglass sum in the array.
+
+hourglassSum has the following parameter(s):
+
+arr: an array of integers
 Input Format
 
-There will be exactly 6 lines, each containing 6 integers seperated by spaces. Each integer will be between -9 and 9 inclusive.
+Each of the  lines of inputs  contains  space-separated integers .
+
+Constraints
 
 Output Format
 
-Print the answer to this problem on a single line.
+Print the largest (maximum) hourglass sum found in .
 
 Sample Input
 
@@ -45,12 +68,16 @@ Sample Output
 19
 Explanation
 
-The hourglass which has the largest sum is:
+ contains the following hourglasses:
+
+image
+
+The hourglass with the maximum sum () is:
 
 2 4 4
   2
-1 2 4
-*/
+1 2 4 */
+
 import java.util.Scanner;               // here imported Java Scanner Class
 public class TWODArrayDSHackerRank {    /* Here I have given the class name "TWODArrayDSHackerRank" but 
                                         if you want, you can try "2DArrayDSHackerRank" this name, 

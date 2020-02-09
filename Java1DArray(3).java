@@ -1,4 +1,4 @@
-/*Day 2, Problem 1 #50DaysAnd100ProblemSolvingChallenge
+/* Problem 3 #50DaysAnd100ProblemSolvingChallenge
 
 ProblemLink: https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
 

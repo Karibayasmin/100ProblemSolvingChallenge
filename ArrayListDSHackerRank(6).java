@@ -1,4 +1,4 @@
-/*Day 3, Problem 2 #50DaysAnd100ProblemSolvingChallenge
+/*Problem 6 #50DaysAnd100ProblemSolvingChallenge
 
 ProblemLink: https://www.hackerrank.com/challenges/java-arraylist/problem
 
