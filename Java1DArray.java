@@ -1,4 +1,7 @@
 /*Day 2, Problem 1 #50DaysAnd100ProblemSolvingChallenge
+
+ProblemLink: https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
+
 Java 1D Array 
 
 An array is a simple data structure used to store a collection of data in a contiguous block of memory. Each element in the collection is accessed using an index, and the elements are easy to find because they're stored sequentially in memory.

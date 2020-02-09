@@ -1,5 +1,7 @@
 /* Day 1, Problem 2 #50DaysAnd100ProblemSolvingChallenge
 
+ProblemLink: https://www.hackerrank.com/challenges/2d-array/problem?h_r=profile
+
 Given a  2D Array, :
 
 1 1 1 0 0 0

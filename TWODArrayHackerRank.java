@@ -1,5 +1,7 @@
 /*Day 2, Problem 2 #50DaysAnd100ProblemSolvingChallenge
 
+ProblemLink: https://www.hackerrank.com/challenges/java-2d-array/problem
+
 You are given a 6 * 6 2D array. An hourglass in an array is a portion shaped like this:
 
 a b c
