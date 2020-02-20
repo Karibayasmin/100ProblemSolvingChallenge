@@ -1,4 +1,4 @@
-/* Problem 2 #50DaysAnd100ProblemSolvingChallenge
+/* Problem 2 #100ProblemSolvingChallenge
 
 ProblemLink: https://www.hackerrank.com/challenges/2d-array/problem?h_r=profile
 

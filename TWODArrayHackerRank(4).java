@@ -1,4 +1,4 @@
-/* Problem 4 #50DaysAnd100ProblemSolvingChallenge
+/* Problem 4 #100ProblemSolvingChallenge
 
 ProblemLink: https://www.hackerrank.com/challenges/java-2d-array/problem
 

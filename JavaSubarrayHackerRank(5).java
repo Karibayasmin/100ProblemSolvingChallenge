@@ -1,4 +1,4 @@
-/* Problem 5 #50DaysAnd100ProblemSolvingChallenge
+/* Problem 5 #100ProblemSolvingChallenge
 
 Problem Link:https://www.hackerrank.com/challenges/java-negative-subarray/problem
 

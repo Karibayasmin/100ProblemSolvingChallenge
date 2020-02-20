@@ -1,4 +1,4 @@
-/*Problem 1 #50DaysAnd100ProblemSolvingChallenge
+/*Problem 1 #100ProblemSolvingChallenge
 
 ProblemLink: https://www.hackerrank.com/challenges/arrays-ds/problem?h_r=profile
 
