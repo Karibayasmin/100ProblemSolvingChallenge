@@ -60,7 +60,7 @@ When we save each integer to its corresponding index in , we get . The locked co
 */
 import java.util.*;
 
-public class Java1DArray {
+public class Java1DArrayHackerRank {
 
     public static void main(String[] args) {
 	   

@@ -55,7 +55,7 @@ For  and , there is no way for us to get past the one at index . Because we cann
 */
 
 import java.util.*;
-public class Java1DArrayPart2 {
+public class Java1DArrayPart2HackerRank {
     
 /*Here's a test case from the problem:
 
