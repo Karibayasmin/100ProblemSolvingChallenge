@@ -84,7 +84,10 @@ public class JavaListHackerRank {
          //  System.out.println("Enter which operation you want to do: ");
            String operation = sc.next();
           if(operation.equals("Insert")){ // Inside operation which string value we have taken if that is same to same "Index" value then it will enter in the if block
-           
+           /*
+		   == checks if both objects point to the same memory location 
+		   whereas .equals() evaluates to the comparison of values in the objects.
+		   */
           // System.out.println("Enter the number of index to add value: ");
            int index = sc.nextInt();
          //  System.out.println("Enter the number of value: ");
