@@ -52,7 +52,7 @@ The hourglass which has the largest sum is:
 1 2 4
 */
 import java.util.Scanner;               // here imported Java Scanner Class
-public class TWODArrayDSHackerRank {    /* Here I have given the class name "TWODArrayDSHackerRank" but 
+public class TWODArrayHackerRank {    /* Here I have given the class name "TWODArrayDSHackerRank" but 
                                         if you want, you can try "2DArrayDSHackerRank" this name, 
 										And you will get Compillation Error because this breaks the rules of Java Class Name. */
     public static void main(String args[]) {
