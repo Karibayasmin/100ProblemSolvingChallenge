@@ -38,7 +38,7 @@ Sample Output 1
 
 
 import java.util.Scanner;   // import the Scanner Package here.
-public class Arrays-DSHackerRank {
+public class ArraysDSHackerRank {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in); // created a reference variable 'sc' of Scanner class so that I can take input from user. 
      // System.out.println("Enter the number of n: ");
