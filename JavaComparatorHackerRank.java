@@ -90,6 +90,9 @@ public class JavaComparatorHackerRank {
         scan.close();
      
         Arrays.sort(player, checker); // This call specifies to sort the array by using the sort logic in Checker class
+		
+		/* Arrays.sort works for arrays which can be of primitive data type also. 
+		Collections.sort() works for objects Collections like ArrayList, LinkedList, etc */
         
         for(int i = 0; i < player.length; i++){
             System.out.printf("%s %s\n", player[i].name, player[i].score);// sorted value is printed here.
