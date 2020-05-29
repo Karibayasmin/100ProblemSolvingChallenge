@@ -73,16 +73,16 @@ All
 */
 import java.util.*;
 
-public class MyClass {
+public class JavaBitsetHackerRank {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         
         int numOfBitset = sc.nextInt(); // how many bit in a set I want to take, here I am taking that number.
         int numOfOp = sc.nextInt(); // And in those bit set how many operation I want to do, that number I am taking here.
         
-        BitSet bitset1 = new BitSet(numOfBitset); // Here creating a bitset reference variable.
-        BitSet bitset2 = new BitSet(numOfBitset); // Here creating another bitset reference variable.
-		//That means I have taken 2 bitset.
+        BitSet bitset1 = new BitSet(numOfBitset); // Here creating a bitset reference variable. and Initially all the value of this set are zero.
+        BitSet bitset2 = new BitSet(numOfBitset); // Here creating another bitset reference variable. and Initially all the value of this set also are zero.
+		//That means I have taken 2 bitset here.
         
         for(int i=0; i<numOfOp; i++ ){
             
@@ -91,15 +91,15 @@ public class MyClass {
             int setTwo = sc.nextInt(); // And this one will tell me in that bitset which position will be change according to the operation.
            
             if(op.equals("AND")){ // if "And" is the value of "op" variable then program will enter in this block 
-                if(setOne==1) bitset1.and(bitset2); // here value of op = AND, setOne=1 setTwo=2 means the AND operation between the 1st and 2nd set where both was initially 00000 value of numOfBitset variable .
-                else bitset2.and(bitset1);
+                if(setOne==1) bitset1.and(bitset2); // here value of op = AND, value of setOne=1, value of setTwo=2 means the AND operation between the 1st and 2nd set where both was initially 00000 value of numOfBitset variable .
+                else bitset2.and(bitset1); // program will enter in this block if value of setOne is 2 and value of setTwo is 1 comes.
 				
-            }else if(op.equals("OR")){  // here value of op = OR, setOne=1 setTwo=2 means the OR operation between the 1st and 2nd set where both was initially 00000 value of numOfBitset variable according to the given input.
-               if(setOne==1) bitset1.or(bitset2);
+            }else if(op.equals("OR")){  
+               if(setOne==1) bitset1.or(bitset2); // here value of op = OR,  setOne=1 setTwo=2 means the OR operation between the 1st and 2nd set where both was initially 00000 value of numOfBitset variable according to the given input.
                 else bitset2.or(bitset1);
 				
-            }else if(op.equals("XOR")){ // here value of op = XOR, setOne=1 setTwo2 means the XOR operation between the 1st and 2nd set where both was initially 00000 value of numOfBitset variable .
-                if(setOne==1) bitset1.xor(bitset2);
+            }else if(op.equals("XOR")){ 
+                if(setOne==1) bitset1.xor(bitset2);// here value of op = XOR, setOne=1 setTwo2 means the XOR operation between the 1st and 2nd set where both was initially 00000 value of numOfBitset variable .
                 else bitset2.xor(bitset1);
 				
             }else if(op.equals("FLIP")){ //here value of op=FLIP, setOne=2 setTwo=2 means to revert the 2nd bit of 2nd set(if it's 0 make it 1,if it's 1 make it 0)
@@ -112,7 +112,7 @@ public class MyClass {
             }
            // System.out.println(b1.cardinality()+" "+b2.cardinality());
             
-            System.out.println(bitset1.cardinality()+" "+bitset2.cardinality());
+            System.out.println(bitset1.cardinality()+" "+bitset2.cardinality()); //cardinality() methods of BitSet class Returns the number of bits set to true in this BitSet.
         }
        //System.out.println(bitset1.cardinality()+" "+bitset2.cardinality());
     }
