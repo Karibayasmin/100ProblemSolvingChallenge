@@ -51,12 +51,13 @@ public class LeftRotationHackerRank{
     public static void main(String[] args) {
         int x = 0;
         int i = 0;
-        String[] nd = scanner.nextLine().split(" ");
+        String[] nd = scanner.nextLine().split(" "); /* with space I can take input as much as I want, 
+		and it will calculate position wise value according to space seperator because of split */
 
-        int n = Integer.parseInt(nd[0]);
+        int n = Integer.parseInt(nd[0]); // first value's position will consider as 0 and it will store in 0 number position
        // System.out.println("n: "+ n);
 
-        int d = Integer.parseInt(nd[1]);
+        int d = Integer.parseInt(nd[1]); // second value's position will consider as 1 and it will store in 1 number position
        // System.out.println("d: "+ d);
 
         int[] a = new int[n];
@@ -64,13 +65,14 @@ public class LeftRotationHackerRank{
 
        for( i = 0; i < n; i++){
            
-           a[i] = scanner.nextInt();
+           a[i] = scanner.nextInt(); // here in this array I am taking input for specific position
             
        }
              
              for( i = 0; i < n; i++){
                  
-               b[(i+n-d)%n] = a[i];
+               b[(i+n-d)%n] = a[i]; /* here I am assigning value according to my condition and I have used % 
+			   so that when value is greater than or equal to n, that time it could not show error*/
 
               
               
@@ -79,7 +81,7 @@ public class LeftRotationHackerRank{
              }
              for( i = 0; i < n; i++) {
              //  System.out.print("i = "+i+" = " +b[i]+" ");
-               System.out.print(b[i]+" ");
+               System.out.print(b[i]+" "); // Here I am printing final result
              } 
         
     }
