@@ -1,4 +1,4 @@
-/* Problem 23 #100ProblemSolvingChallenge
+/* Problem 24th #100ProblemSolvingChallenge
 
 ProblemLink: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
 
